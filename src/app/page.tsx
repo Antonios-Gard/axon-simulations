@@ -480,7 +480,7 @@ export default function AxonEngineeringSimulationsPage() {
             <div className="text-sm font-semibold">Tools & stack</div>
             <div className="mt-3 flex flex-wrap gap-2">
               {tools.map((t) => (
-                <Badge className="rounded-full bg-blue-50 text-blue-800 border border-blue-200"">
+                <Badge className="rounded-full bg-blue-50 text-blue-800 border border-blue-200">
                   {t}
                 </Badge>
               ))}
