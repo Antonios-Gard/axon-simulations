@@ -339,8 +339,7 @@ export default function AxonEngineeringSimulationsPage() {
               </CardContent>
             </Card>
 
-            <div className="absolute -bottom-6 -left-6 hidden h-28 w-28 rounded-3xl border bg-background shadow-sm md:block" />
-            <div className="absolute -top-6 -right-6 hidden h-24 w-24 rounded-3xl border bg-background shadow-sm md:block" />
+            
           </motion.div>
         </div>
       </section>
