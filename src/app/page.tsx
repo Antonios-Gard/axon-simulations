@@ -338,11 +338,9 @@ export default function AxonEngineeringSimulationsPage() {
                 </div>
               </CardContent>
             </Card>
-
-            
-          </motion.div>
-        </div>
-      </section>
+           </motion.div>
+          </div>
+        </section>
 
       {/* Services */}
       <section id="services" className="border-t">
