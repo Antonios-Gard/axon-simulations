@@ -220,7 +220,7 @@ export default function AxonEngineeringSimulationsPage() {
             <a className="text-sm text-muted-foreground hover:text-foreground" href="#faq">
               FAQ
             </a>
-            <a className="text-sm text-muted-foreground hover:text-foreground" href="#contact">
+            <a className="text-sm text-muted-foreground hover:text-blue-700 transition-colors">
               Contact
             </a>
           </nav>
@@ -251,10 +251,10 @@ export default function AxonEngineeringSimulationsPage() {
             className="flex flex-col gap-5"
           >
             <div className="flex flex-wrap items-center gap-2">
-              <Badge variant="outline" className="rounded-full">
+              <Badge className="rounded-full bg-blue-50 text-blue-800 border border-blue-200">
                 Simulations • CFD • FEA • EM
               </Badge>
-              <Badge variant="secondary" className="rounded-full">
+              <Badge className="rounded-full bg-blue-100 text-blue-900">
                 Fast engineering turnaround
               </Badge>
             </div>
@@ -300,7 +300,7 @@ export default function AxonEngineeringSimulationsPage() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="relative"
           >
-            <Card className="rounded-3xl shadow-sm">
+            <Card className="rounded-3xl shadow-sm hover:shadow-md transition-shadow border-blue-100">
               <CardHeader>
                 <CardTitle className="text-xl">Τι παραδίδουμε</CardTitle>
                 <CardDescription>Τυπικό πακέτο deliverables σε κάθε έργο.</CardDescription>
@@ -323,7 +323,7 @@ export default function AxonEngineeringSimulationsPage() {
                     icon: FileDown,
                   },
                 ].map((x) => (
-                  <div key={x.title} className="flex items-start gap-3 rounded-2xl border p-3">
+                  <div key={x.title} className="flex items-start gap-3 rounded-2xl border border-blue-100 hover:border-blue-300 transition-colors p-3">
                     <div className="grid h-10 w-10 place-items-center rounded-2xl bg-muted">
                       <x.icon className="h-5 w-5" />
                     </div>
@@ -480,7 +480,7 @@ export default function AxonEngineeringSimulationsPage() {
             <div className="text-sm font-semibold">Tools & stack</div>
             <div className="mt-3 flex flex-wrap gap-2">
               {tools.map((t) => (
-                <Badge key={t} variant="outline" className="rounded-full">
+                <Badge className="rounded-full bg-blue-50 text-blue-800 border border-blue-200"">
                   {t}
                 </Badge>
               ))}
