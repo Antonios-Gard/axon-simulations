@@ -186,7 +186,9 @@ export default function AxonEngineeringSimulationsPage() {
     []
   );
 
-  function onChange(e) {
+  function onChange(
+   e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) {
     const { name, value } = e.target;
     setForm((p) => ({ ...p, [name]: value }));
   }
